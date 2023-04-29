@@ -10,6 +10,6 @@ class Duty (Workposition: String, experience: Int, salary: Int, duty: String) {
     private var salary: Int = salary
         private set
     override fun toString(): String {
-        return "Work position='$Workposition', experience=$experience, solary=$salary, duty='$duty')"
+        return "Work position='$Workposition', experience=$experience, salary=$salary, duty='$duty')"
     }
 }
